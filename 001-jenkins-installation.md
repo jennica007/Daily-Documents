@@ -34,9 +34,9 @@ export PATH=$PATH:/usr/java/jdk1.8.0_144/bin
 # Download jenkins.war  
 sudo wget  https://updates.jenkins-ci.org/download/war/2.143/jenkins.war  
 unzip -oq jenkins.war -d jenkins  
-sudo sh bin/catalina.sh start
+sudo sh bin/catalina.sh start  
+
 # password of jenkins administrator  
 sudo cat  /root/.jenkins/secrets/initialAdminPassword  
 
-# The first time you login in jenkinsshould create a newuser   
 ```  
